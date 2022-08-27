@@ -1,0 +1,89 @@
+.slick__carousel--container {
+  max-width: 70%;
+  margin: 0 auto;
+}
+.slick__carousel--exterior {
+  padding: 6vw;
+}
+.slick__carousel--quotation {
+  width: 6vw;
+}
+.slick__carousel--interior {
+  padding: 6vw;
+  -webkit-box-shadow: 0px 10px 13px -7px #787272,
+    0px -1px 23px -3px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 10px 13px -7px #888686,
+    0px -1px 23px -3px rgba(125, 123, 123, 0.52);
+}
+.slick__carousel--quote {
+  font-size: 3vw;
+}
+.slick__carousel--portrait {
+  margin-top: 4em;
+  margin: 0 auto;
+  border-radius: 100px;
+  width: 15vw;
+}
+.slick__carousel--name {
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  .slick__carousel--exterior {
+    padding: 2vw;
+  }
+  .slick__carousel--interior {
+    padding: 3vw;
+  }
+  .slick__carousel--quotation {
+    width: 2vw;
+  }
+  .slick__carousel--quote {
+    font-size: 1rem;
+  }
+  .slick__carousel--portrait {
+    width: 10vw;
+    margin-top: 1.5rem;
+    border-radius: 500px;
+  }
+}
+
+@media (min-width: 989px) {
+  .slick__carousel--exterior {
+    padding: 2vw;
+  }
+  .slick__carousel--interior {
+    padding: 1.5vw;
+  }
+  .slick__carousel--quotation {
+    width: 2vw;
+  }
+  .slick__carousel--quote {
+    font-size: 1.4vw;
+  }
+  .slick__carousel--portrait {
+    width: 7vw;
+    margin-top: 1rem;
+    border-radius: 500px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .slick__carousel--exterior {
+    padding: 2vw;
+  }
+  .slick__carousel--interior {
+    padding: 1.5vw;
+  }
+  .slick__carousel--quotation {
+    width: 2vw;
+  }
+  .slick__carousel--quote {
+    font-size: 1.25rem;
+  }
+  .slick__carousel--portrait {
+    width: 5vw;
+    margin-top: 5px;
+    border-radius: 500px;
+  }
+}
